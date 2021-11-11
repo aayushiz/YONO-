@@ -58,8 +58,31 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
+  assets:
+    - assets/yono.png
+    - assets/yono-logo.png
+    - assets/Myntra-logo.png
+    - assets/needhelp.png
+    - assets/paymentdone.png
+    - assets/faceid.png
+    - assets/profile.png
+    - assets/diwali.png
+    - assets/diwali1.png
+    - assets/flipkart.png
+    - assets/uber.png
+    - assets/uber1.png
+    - assets/uber-logo.png
+    - assets/uspolo.png
+    - assets/uspolo1.png
+    - assets/uspolo-logo.png
+    - assets/Union.png
+    - assets/curve.png
+    - assets/zara.png
+    - assets/grofers.png
+    - assets/sbi.png
+    - assets/fastag.png
+    - assets/semi-circle.png
+    - assets/semi-circle2.png
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

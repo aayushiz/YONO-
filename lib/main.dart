@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import './signIn.dart';
 import './splash.dart';
+import './homepage.dart';
+import './transactiondetails.dart';
+import './bottomnavigationbar.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +21,14 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
+      routes: {
+        SignIn.routeName:(ctx) => const SignIn(),
+        HomePage.routeName:(ctx) => const HomePage(),
+        TransactionDetails.routeName: (ctx) => const TransactionDetails(),
+        BottomNagivation.routeName : (ctx) => const BottomNagivation(),
+      },
       home: const SplashScreen(),
     );
+
   }
 }
